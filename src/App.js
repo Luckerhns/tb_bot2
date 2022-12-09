@@ -10,9 +10,9 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App" onClick={onToggleButton}>
+    <div className="App">
       <Header />
-      toggle
+      <button onClick={onToggleButton}></button>
     </div>
   );
 };
