@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <button onClick={onToggleButton}></button>
+      <button onClick={onToggleButton}>Gaga</button>
     </div>
   );
 };
